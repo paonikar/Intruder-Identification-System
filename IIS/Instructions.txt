@@ -1,0 +1,41 @@
+Follow these steps to run the Intruder Identification program:
+
+1. Open Pic.java.
+
+2. Go to line 30 and replace the username and folder locations as per requirements. Change:
+
+a) username
+
+b) cloud_account ---> your cloud folder
+
+c) subfolder ---> subfolder within cloud folder
+
+d) filename ---> rename as you wish
+
+3. Save & exit.
+
+4. Open main.cpp in notepad.
+
+5. Go to line 61.
+
+6. Rename username and cloud_folder just like in the previous steps.
+
+7. Save & exit.
+
+8. Put all software-set files in a secured location. We will use the location "C:\Windows\System32\example\" as an example.
+
+9. Open "1 Enable.bat" in notepad.
+
+10. Go to line 3.
+
+11. And change the username and folder_location "C:\Windows\System32\example\Intruder Identification System\Software-set".
+
+12. Save & Exit.
+
+13. Create a shortcut of "runit.vbs".
+
+14. Copy that shortcut to Windows Startup. 
+
+15. Now, everything is set and the Intruder Identification System is put to work, the next time the computer is started.
+
+16. To disable the Intruder Identification System, copy "0 Disable.bat" to any location. We recommend you to put it in an external USB flash drive, to make it work as a key. When Intruder Identification System needs to be stopped, just double-click to run "0 Disable.bat".

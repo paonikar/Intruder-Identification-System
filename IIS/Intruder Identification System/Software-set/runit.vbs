@@ -1,0 +1,1 @@
+CreateObject("WScript.Shell").RUN "1 Enable.bat", 0, True
